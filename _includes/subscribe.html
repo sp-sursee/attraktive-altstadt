@@ -1,0 +1,20 @@
+{% assign splitted = site.url | split: "//" %}
+{% assign protocol = splitted[0] %}
+{% assign base = splitted[1] %}
+<form method="post" action="{{ protocol }}//lists.{{ base }}/mailman/subscribe/{{ include.id }}" id="subscribe">
+    <p><strong>Newsletter abonnieren</strong></p>
+    <div id="subscribe-content">
+        <p>
+            <label for="email">Deine E-Mail Adresse</label>
+            <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+            <label for="fullname">Dein ganzer Name</label>
+            <input type="text" id="fullname" name="fullname">
+        </p>
+        <input type="hidden" id="pw" name="pw" value="">
+        <input type="hidden" id="pw-conf" name="pw-conf" value="">
+        <input type="hidden" id="digest" name="digest" value="0">
+        <input type="submit" id="submit" value="Abonnieren">
+    </div>
+</form>

@@ -1,0 +1,22 @@
+<header>
+    <div id="header-image">
+        <div class="background-static" style="background-image: url('{{ page.image }}');"></div>
+        <img class="background-animated" src="{{ page.image }}">
+        <div class="content">
+            {% if page.title %}
+                <span id="slogan">{{ page.title }}</span>
+            {% else %}
+                <span id="slogan">Ein Sursee für alle<br>statt für wenige</span>
+            {% endif %}
+        </div>
+    </div>
+    <div id="header-title">
+        <div class="content">
+            <div id="header-title-inner" style="justify-content: center; gap: 16px;">
+                {% for logo in page.logos %}
+                    <img src="/assets/logos/{{ logo }}.png">
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</header>

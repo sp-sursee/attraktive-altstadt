@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --text-color: #000;
+    --main-padding: 32px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--primary-color);
+    color: black;
+    font-family: "Inter";
+    font-weight: 400;
+    margin: 0;
+    word-break: break-word;
+}
+
+main {
+    background: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-top: 2em;
+}
+
+footer h2, footer h3, footer h4, footer h5, footer h6 {
+    color: white;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3, h4, h5, h6 {
+    font-size: 16px;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+main img {
+    width: 100%;
+}
+
+a {
+    color: var(--primary-color);
+}
+
+nav a, footer a {
+    color: white;
+}
+
+.content, footer {
+    max-width: 768px;
+    margin: auto;
+}
+
+header, nav, main, footer {
+    padding: var(--main-padding);
+    position: relative;
+}
+
+.background-animated {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1000;
+    animation: slide 90s linear infinite alternate;
+    animation-delay: -45s;
+}
+
+.background-static {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1000;
+    background-position: center;
+    background-size: cover;
+}
+
+@keyframes slide {
+    from {
+      transform: translateX(0%);
+    }
+  
+    to {
+      transform: translateX(calc(100vw - 100%));
+    }
+}
+
+header {
+    min-height: 128px;
+    box-sizing: border-box;
+}
+
+#header-image {
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(100vh - 128px);
+    flex-grow: 1;
+}
+
+#slogan {
+    font-size:  48px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 4px;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+#header-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+    height: 128px;
+    padding: 32px;
+}
+
+#header-title-inner {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 32px;
+    flex-grow: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 64px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    z-index: 1000;
+}
+
+nav, footer {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#footer-nav a {
+    display: block;
+}
+
+nav > a {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+nav > a:first-of-type {
+    padding-left: 0;
+}
+
+nav > a:last-of-type {
+    padding-right: 0;
+}
+
+input[type=submit] {
+    background: white;
+    padding: 12px;
+    display: inline-block;
+    color: var(--primary-color);
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+figure.image {
+    margin: 0;
+    width: 100%;
+}
+
+figure.image figcaption {
+    font-style: italic;
+}
+
+figure.portrait {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--primary-color);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+figure.portrait > img {
+    width: 100%;
+}
+
+figure.portrait figcaption {
+    padding: 16px;
+}
+
+@media only screen and (min-width: 512px) {
+    #header-image {
+        max-height: 40vh;
+    }
+
+    .background-animated {
+        display: none;
+    }
+
+    .background-static {
+        display: block;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    figure.portrait {
+        flex-wrap: nowrap;
+    }
+
+    figure.portrait > img {
+        width: 192px;
+    }
+}
+
+form {
+    padding: 16px;
+    background: var(--primary-color);
+    color: white;
+    max-width: 256px;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+label {
+    width: 100%;
+    display: block;
+}
+
+input {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 12px;
+    border: none;
+}
+
+.side-by-side {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}

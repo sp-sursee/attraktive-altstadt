@@ -1,0 +1,18 @@
+<nav class="fill-nav"></nav>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const elems = document.querySelectorAll("main h2");
+        const nav = document.getElementsByClassName("fill-nav");
+        for (let i = 0; i < elems.length; i++) {
+            const elem = elems[i];
+            const id = elem.innerText.toLowerCase().replace(" ", "-");
+            elem.id = id;
+            const link = document.createElement("a");
+            link.innerText = elem.innerText;
+            link.setAttribute("href", "#" + id);
+            for (let j = 0; j < nav.length; j++) {
+                nav[j].appendChild(link.cloneNode(true));
+            }
+        }
+    })
+</script>
