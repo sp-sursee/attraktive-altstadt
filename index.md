@@ -20,8 +20,6 @@ Der Stadtrat erklärte jedoch die Initiative als ungültig, da die Entscheidung 
 ### Mehr Platz zum Verweilen
      
 Die Gastronomie nutzt heute schon die Aussenfläche der Altstadt. Besuchende verweilen gerne draussen und es ist richtig, dass diese Flächen den Menschen zur Verfügung stehen, um sich zu treffen. Die durch den fehlenden Autoverkehr freiwerdende Fläche in der Altstadt soll ebenfalls dem Gewerbe, der Gastronomie oder für Events zur Verfügung gestellt werden.
-
-{% include image.html image="/assets/images/staedtlibeach.jpg" description="Events wie das Städtlibeach zeigen das Potential einer Autofreien Altstadt." %}
    
 ### Mehr Sicherheit
 
@@ -37,4 +35,4 @@ Zahlreiche Studien belegen, dass [Autofreie Zonen nicht schädlich, sondern im G
 
 Abonniere jetzt den Newsletter zur Initiative, um immer auf dem neuesten Stand zu bleiben. Du kannst den Newsletter natürlich jederzeit abstellen.
 
-{% include subscribe.html id="info" %}
+{% include subscribe.html id="news" %}
