@@ -31,7 +31,7 @@ Zahlreiche Studien belegen, dass [Autofreie Zonen nicht schädlich, sondern im G
 
 {% include image.html image="/assets/images/slowup.jpeg" description="Auch Velofahrer sind gut für das Gewerbe, das zeigt der slowUp." %}
 
-## Fallbeispiel Lenzburg
+### Fallbeispiel Lenzburg
 
 Wie in Sursee, liegt in Lenzburg die Altstadt ein Stück vom Bahnhof weg. Zu Fuss sind es beiderorts rund zehn Minuten. Zudem hat auch Lenzburg ganz in der Nähe der Altstadt eine Migros, wie Sursee. Ein Unterschied gibt es. Die Altstadt Lenzburg ist schon länger autofrei.
 
