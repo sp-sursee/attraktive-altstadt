@@ -31,6 +31,16 @@ Zahlreiche Studien belegen, dass [Autofreie Zonen nicht schädlich, sondern im G
 
 {% include image.html image="/assets/images/slowup.jpeg" description="Auch Velofahrer sind gut für das Gewerbe, das zeigt der slowUp." %}
 
+## Fallbeispiel Lenzburg
+
+Wie in Sursee, liegt in Lenzburg die Altstadt ein Stück vom Bahnhof weg. Zu Fuss sind es beiderorts rund zehn Minuten. Zudem hat auch Lenzburg ganz in der Nähe der Altstadt eine Migros, wie Sursee. Ein Unterschied gibt es. Die Altstadt Lenzburg ist schon länger autofrei.
+
+Die [Berner Zeitung](https://www.bernerzeitung.ch/wie-lenzburg-seiner-altstadt-leben-eingehaucht-hat-621969638966) berichtet: «Lenzburg mit seinen knapp 8000 Einwohnern hat offenbar geschafft. Nach Jahren des Niedergangs scheint sich der historischen Kern der Aargauer Kleinstadt gefangen zu haben.» Die Rolle der Altstädte hat sich verändert: «Anders als früher seien sie nicht mehr die zentralen Orte, an denen man sich für den täglichen Bedarf eindecke – diesen Wandel, müsse die öffentliche Hand aktiv unterstützen.» Was war der Anstoss für eine Aufwertung der Altstadt Lenzburgs? «Den Anlass, sich Gedanken über den Stadtkern zu machen, gab der Verkehr. Während Jahren wälzten sich die Autos im Einbahnverkehr durch zwei parallel verlaufende Altstadtgassen». Für die Altstadt wurde ein neues Verkehrsregime eingeführt: «Mit einer Fussgängerzone in der Mitte. Und mit einer Begegnungszone in den Bereichen um diesen Kern herum, in der die Autos zwar in langsamem Tempo zugelassen sind, die Fussgänger aber Vortritt haben.» 
+
+Der Stadtkern könne gemäss Stadtschreiber nur als autofreie Zone bestehen bleiben denn: «Die Leute suchen dieses Ambiente, sie schätzen es, bei einem Drink oder einem Kaffee draussen sitzen und die historische Kulisse geniessen zu können.» Vor diesem Hintergrund hat Lenzburg schon vor 20 Jahren in der zentralen Gasse die hohen Trottoirs weggerissen. Seither weist ein Grossteil der Fahrbahn auf der ganzen Breite dasselbe Niveau auf, was den Strassenbeizen nur entgegenkommt.
+
+In Lenzburg, kann wie in Sursee, von allen Seiten bis auf eine Distanz von wenigen Minuten zu Fuss ans Zentrum herangefahren werden. In Sursee bieten das Parkhaus Rathaus und der Märtplatz den Zugang. Wichtig sei in Lenzburg, dass im zentrumsnahen Bereich genug Parkplätze zur Verfügung stünden.
+
 ## Mitmachen
 
 Abonniere jetzt den Newsletter zur Initiative, um immer auf dem neuesten Stand zu bleiben. Du kannst den Newsletter natürlich jederzeit abstellen.
