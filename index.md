@@ -40,9 +40,3 @@ Die [Berner Zeitung](https://www.bernerzeitung.ch/wie-lenzburg-seiner-altstadt-l
 Der Stadtkern könne gemäss Stadtschreiber nur als autofreie Zone bestehen bleiben denn: «Die Leute suchen dieses Ambiente, sie schätzen es, bei einem Drink oder einem Kaffee draussen sitzen und die historische Kulisse geniessen zu können.» Vor diesem Hintergrund hat Lenzburg schon vor 20 Jahren in der zentralen Gasse die hohen Trottoirs weggerissen. Seither weist ein Grossteil der Fahrbahn auf der ganzen Breite dasselbe Niveau auf, was den Strassenbeizen nur entgegenkommt.
 
 In Lenzburg, kann wie in Sursee, von allen Seiten bis auf eine Distanz von wenigen Minuten zu Fuss ans Zentrum herangefahren werden. In Sursee bieten das Parkhaus Rathaus und der Märtplatz den Zugang. Wichtig sei in Lenzburg, dass im zentrumsnahen Bereich genug Parkplätze zur Verfügung stünden.
-
-## Mitmachen
-
-Abonniere jetzt den Newsletter zur Initiative, um immer auf dem neuesten Stand zu bleiben. Du kannst den Newsletter natürlich jederzeit abstellen.
-
-{% include subscribe.html id="news" %}
